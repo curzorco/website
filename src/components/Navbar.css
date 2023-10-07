@@ -1,0 +1,26 @@
+.navbar {
+  font-family: "Roboto", sans-serif;
+}
+
+.barraScroll {
+  background-color: #303031cb;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}
+
+#logo {
+  width: 169px;
+  height: 45px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    background-color: #303031cb;
+    -webkit-transition: 1s ease;
+    transition: 1s ease;
+  }
+  #logo {
+    width: 120px;
+    height: 32px;
+  }
+}
