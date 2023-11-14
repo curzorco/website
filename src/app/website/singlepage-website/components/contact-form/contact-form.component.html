@@ -1,0 +1,38 @@
+<div id="container-form" class="container-fluid" *transloco="let t; read: 'contact.form'">
+  <form [formGroup]="myForm"
+        (ngSubmit)="send()"
+        autocomplete="off">
+
+    <!-- Nombre -->
+    <div class="mb-3">
+      <input type="text" name="name" class="form-control" [placeholder]="t('name.placeholder')" formControlName="name">
+      <span class="form-text text-danger"
+            *ngIf="validation('name')">{{ t('name.errorMsg') }}</span>
+    </div>
+
+    <!-- Email -->
+    <div class="mb-3">
+      <input type="email" name="email" class="form-control" [placeholder]="t('email.placeholder')" formControlName="email">
+      <span class="form-text text-danger"
+            *ngIf="validation('email')">{{ t('email.errorMsg') }}</span>
+    </div>
+
+    <!-- Teléfono -->
+    <div class="mb-3">
+      <input type="text" name="phone" pattern="^[0-9]+" class="form-control" [placeholder]="t('phone.placeholder')" formControlName="phone">
+      <span class="form-text text-danger"
+            *ngIf="validation('phone')">{{ t('phone.errorMsg') }}</span>
+    </div>
+
+    <!-- Mensaje -->
+    <div class="mb-3">
+      <textarea type="text" name="message" class="form-control" cols="30" rows="5" [placeholder]="t('message.placeholder')" formControlName="message"></textarea>
+    </div>
+  
+    <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalContact" [disabled]="!myForm.valid">{{ t('btnSubmit.msg') }}</button>
+    
+  </form>
+</div>
+
+<!-- Modal de Contacto -->
+<app-modal-contact></app-modal-contact>

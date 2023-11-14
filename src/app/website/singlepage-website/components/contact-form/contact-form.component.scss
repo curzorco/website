@@ -1,0 +1,114 @@
+:host {
+
+  #container-form {
+    width: 343px;
+    height: 412px;
+
+    background-image: url("/assets/images/sections/contact/contactoCardBkg.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100vh;
+    box-shadow: rgba(248, 244, 227, 0.2) 0px 2px 8px 0px;
+
+    padding: 32px;
+    border-radius: 2px;
+    text-align: start;
+
+    input {
+      background-color: var(--bs-color-dgray);
+      border: 1px solid var(--bs-color-5th);
+      color: var(--bs-color-1st);
+
+      &::placeholder {
+        color: rgba(248, 244, 227, 0.6);
+      }
+
+      &:focus {
+        box-shadow: rgba(248, 244, 227, 0.5) 3px 3px 3px 0px;
+      }
+    }
+
+    textarea {
+      background-color: var(--bs-color-dgray);
+      border: 1px solid var(--bs-color-5th);
+      color: var(--bs-color-1st);
+
+      &::placeholder {
+        color: rgba(248, 244, 227, 0.6);
+      }
+
+      &:focus {
+        box-shadow: rgba(248, 244, 227, 0.5) 3px 3px 3px 0px;
+      }
+    }
+
+    .btn {
+      --bs-btn-padding-x: 24px;
+      --bs-btn-border-radius: 2px;
+    }
+
+    .btn-primary {
+      --bs-btn-color: var(--bs-color-5th);
+      --bs-btn-bg: var(--bs-color-dgray);
+      --bs-btn-border-color: var(--bs-color-dgray);
+
+      --bs-btn-hover-color: var(--bs-color-5th);
+      --bs-btn-hover-bg: rgba(48, 48, 49, 0.8);
+      --bs-btn-hover-border-color: var(--bs-color-dgray);
+
+      --bs-btn-active-color: var(--bs-color-5th);
+      --bs-btn-active-bg: rgba(48, 48, 49, 0.8);
+      --bs-btn-active-border-color: var(--bs-color-dgray);
+
+      --bs-btn-disabled-color: var(--bs-color-gray);
+      --bs-btn-disabled-bg: rgba(48, 48, 49, 0.8);
+      --bs-btn-disabled-border-color: var(--bs-color-dgray);
+
+      &:hover {
+        box-shadow: rgba(2, 204, 158, 0.3) 1.95px 1.95px 2.6px;
+      }
+
+      &:active {
+        box-shadow: rgba(2, 204, 158, 0.7) 1.95px 1.95px 2.6px;
+      }
+    }
+  }
+
+  //** Medium Screens
+
+  @media(min-width: 768px) {
+
+    display: flex;
+    justify-content: center;
+
+    #container-form {
+      width: 80%;
+      height: auto;
+      margin: 0px 40px;
+
+      background-image: url("/assets/images/sections/contact/contactoCardBkg_med.svg");
+      background-position: center;
+      background-size: cover;
+
+      input {
+        width: 50%;
+      }
+
+      textarea {
+        width: 60%;
+      }
+    }
+  }
+
+  //** Large Screens
+
+  @media (min-width: 992px) {
+
+    #container-form {
+
+      width: 70%;
+      height: auto;
+      margin: 0px 40px;
+    }
+  }
+}

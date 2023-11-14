@@ -1,4 +1,8 @@
 import { Component } from '@angular/core';
+// Swiper
+// import { register } from 'swiper/element/bundle';
+
+
 
 @Component({
   selector: 'app-root',
@@ -6,5 +10,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'website';
+  title = 'Curzor';
+
+  constructor() {
+    // register();
+  }
 }

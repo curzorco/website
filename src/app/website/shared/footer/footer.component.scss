@@ -1,0 +1,65 @@
+:host {
+
+  #footer {
+    min-height: 30vh;
+    padding: 32px 16px;
+    background-color: var(--bs-color-white);;
+  }
+
+  .footer-logo {
+    cursor: pointer;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+
+    div {
+      margin: 4px 0;
+    }
+  }
+
+  .footer-contacts {
+    
+    a {
+      margin: 0 8px;
+
+      i {
+        color: var(--bs-color-dgray);
+
+        &:hover {
+          color: var(--bs-color-1st);
+        }
+
+        &:active {
+          color: var(--bs-color-1st);
+        }
+      }
+    }
+  }
+
+  .copyright {
+    
+    p {
+      margin: 0;
+      color: var(--bs-color-dgray);
+    }
+  }
+
+  #privacy-notice {
+
+    a {
+      text-decoration: none;
+      cursor: pointer;
+      color: var(--bs-color-gray);
+
+      &:hover {
+        color: var(--bs-color-1st);
+      }
+
+      &:active {
+        color: var(--bs-color-1st);
+      }
+    }
+  }
+}

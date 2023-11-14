@@ -1,0 +1,39 @@
+<div class="img-services">
+  <img src="assets/images/sections/services/desarrolloWeb.webp" [alt]=" 'services.title' | transloco ">
+</div>
+
+<div class="swiper" style="cursor: grab;">
+  <swiper-container init="false" 
+                    grab-cursor="true"
+                    pagination="true">
+  
+  <swiper-slide *ngFor="let item of cardData">
+      <div class="card-header">
+        <span>
+          <h3>{{ item.title }}</h3>
+          <p>{{ item.subtitle }}</p>
+        </span>
+        <span>
+          <i [class]="item.icon"></i>
+        </span>        
+      </div>
+      <div class="card-content">
+        
+        <p>{{ item.description }}</p>
+
+        <div class="card-services">
+          <div class="service" *ngFor="let service of item.services">
+            <span>
+              <i [class]="service.icon"></i>
+            </span>
+            <small>
+              {{ service.name }}
+            </small>
+          </div>
+        </div>
+      
+      </div>
+  </swiper-slide>
+
+  </swiper-container>
+</div>

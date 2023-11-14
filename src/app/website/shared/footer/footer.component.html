@@ -1,0 +1,32 @@
+<footer id="footer">
+  <div class="footer-content text-center" *transloco="let t; read: 'footer'">
+    <div class="footer-logo">
+      <a (click)="scrollTo('home')">
+        <img src="assets/images/logos/LogoAzulCentrado.webp" alt="Curzor" width="123" height="32">
+      </a>
+    </div>
+    <div class="footer-contacts">
+      <a class="facebook" href="https://www.facebook.com/Curzor.co" target="_blank">
+        <i class="fa-brands fa-facebook fa-lg"></i>
+      </a>
+      <a class="email" href="mailto:curzor.co@gmail.com">
+        <i class="fa-regular fa-envelope fa-lg"></i>
+      </a>
+      <a class="mobile" href="tel:442-492-3935">
+        <i class="fa-solid fa-mobile-screen-button fa-lg"></i>
+      </a>
+    </div>
+    <div class="copyright">
+      <p>Copyright © 2023</p>
+      <p>{{ t('rights') }}</p>
+    </div>
+    <div id="privacy-notice">
+        <a data-bs-toggle="modal" data-bs-target="#modalNotice">
+          {{ t('notice') }}
+        </a>
+    </div>
+  </div>
+</footer>
+
+<!-- Modal Aviso de Privacidad -->
+<app-modal-notice></app-modal-notice>

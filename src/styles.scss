@@ -1,1 +1,100 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --bs-color-1st: #02CC9E;
+  --bs-color-2nd: #18223B;
+  --bs-color-3rd: #F27654;
+  --bs-color-4th: #FD8591;
+  --bs-color-5th: #f8f4e3;
+  --bs-color-white: white;
+  --bs-color-lgray: #EDEDED;
+  --bs-color-gray: #646464;
+  --bs-color-dgray: #303031;
+  --bs-color-dark: #000000;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+  background-color: #606160;
+}
+
+h1 {
+  font-size: 39px;
+}
+
+h2 {
+  font-size: 31px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 21px;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--bs-color-1st);
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  font-size: 12px;
+}
+
+p {
+  font-size: 16px;
+}
+
+small {
+  font-size: 14px;
+  line-height: normal;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+//** Medium Screens
+
+@media (min-width: 768px) {
+
+  h1 {
+    font-size: 44px;
+  }
+  
+  h2 {
+    font-size: 36px;
+    font-weight: 600;
+  }
+  
+  h3 {
+    font-size: 26px;
+  }
+  
+  h4 {
+    font-size: 21px;
+    font-weight: 600;
+    color: var(--bs-color-1st);
+  }
+  
+  h5 {
+    font-size: 19px;
+  }
+  
+  h6 {
+    font-size: 17px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+  
+  small {
+    font-size: 12px;
+    line-height: normal;
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "navbar": {
+    "about": "About",
+    "services": "Services",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  
+  "home": {
+    "title": "Transforming businesses\n with digitalization",
+    "subtitle": "Digital development\n to boost your business",
+    "btn": "Contact us"
+  },
+  
+  "about": {
+    "title": "About",
+    "subtitle": "Bussines technology",
+    "p_1": "Tech agency that develops software.\nWe are located in Queretaro, Mx.",
+    "p_2": "We drive the success of our clients through innovation and technology.\nWe are here to help you."
+  },
+  
+  "services": {
+    "title": "Services",
+    "subtitle": "Innovative digital products",
+    "cardData": [
+      {
+        "title": "Web",
+        "subtitle": "Web Development",
+        "icon": "fa-solid fa-earth-americas fa-lg",
+        "description": "Products with intuitive and functional digital experiences for your users.",
+        "services": [
+          {
+            "name": "Websites\nLanding Pages", 
+            "icon": "fa-solid fa-computer fa-lg"
+          },
+          {
+            "name": "Apps", 
+            "icon": "fa-solid fa-mobile-screen-button fa-lg"
+          },
+          {
+            "name": "Ecommerce", 
+            "icon": "fa-solid fa-desktop fa-lg"
+          }
+        ]
+      },
+      {
+        "title": "Apps",
+        "subtitle": "Mobile Development",
+        "icon": "fa-solid fa-mobile-screen-button fa-lg",
+        "description": "Multiplatform applications capable of adapting to different devices.",
+        "services": [
+          {
+            "name": "Crossplatform", 
+            "icon": "fa-solid fa-tablet-screen-button fa-lg"
+          }
+        ]
+      },
+      {
+        "title": "Automation",
+        "subtitle": "Process industrialization",
+        "icon": "fa-solid fa-robot fa-lg",
+        "description": "Processes and computational tasks automation for different sectors.",
+        "services": [
+          {
+            "name": "Unigraphics NX", 
+            "icon": "fa-solid fa-cube fa-lg"
+          },
+          {
+            "name": "Solidworks", 
+            "icon": "fa-solid fa-cubes fa-lg"
+          },
+          {
+            "name": "Windows", 
+            "icon": "fa-brands fa-windows fa-lg"
+          }
+        ]
+      },
+      {
+        "title": "Consultancy",
+        "subtitle": "Companies consulting",
+        "icon": "fa-solid fa-chalkboard-user fa-lg",
+        "description": "Advice for companies and businesses that seek to improve their indicators through digital solutions.",
+        "services": [
+          {
+            "name": "Consultancy",
+            "icon": "fa-solid fa-person-chalkboard fa-lg",
+            "only": true
+          }
+        ]
+      }
+    ]
+  },
+  
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Solutions at your fingertips",
+    "projectData": [
+      {
+        "name": "Gizmatic",
+        "description": "Design and\n manufacturing center.",
+        "icon": "fa-solid fa-gears fa-lg",
+        "img": ", url(/assets/images/sections/projects/gizmaticCover.svg)",
+        "url": "https://gizmatic.com/"
+      },
+      {
+        "name": "Lalenteria",
+        "description": "Glasses ecommerce.",
+        "icon": "fa-solid fa-glasses fa-lg",
+        "img": ", url(/assets/images/sections/projects/lalenteriaCover.svg)",
+        "url": "https://lalenteria.mx/"
+      },
+      {
+        "name": "Food and Pleasure",
+        "description": "Blog of Food and\n tourist sites.",
+        "icon": "fa-solid fa-burger fa-lg",
+        "img": ", url(/assets/images/sections/projects/foodandpleasureCover.svg)",
+        "url": "https://foodandpleasure.com/"
+      }
+    ]
+  },
+  
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Let's build your idea",
+    "form": {
+      "name": {
+        "placeholder": "Name / Bussines",
+        "errorMsg": "Type 3 characters minimum"
+      },
+      "email": {
+        "placeholder": "Email",
+        "errorMsg": "Type a valid email."
+      },
+      "phone": {
+        "placeholder": "Telephone",
+        "errorMsg": "Type a valid phone number."
+      },
+      "message": {
+        "placeholder": "How can we help you?"
+      },
+      "btnSubmit": {
+        "msg": "Send"
+      }
+    },
+    "modal": {
+      "p_1": "Thanks for your time!",
+      "p_2": "Shortly we'll contact you..."
+    }
+  },
+
+  "footer": {
+    "rights": "All rights reserved",
+    "notice": "Privacy Notice",
+    "modal": {
+      "p_1": "Privacy Notice",
+      "p_2": "Curzor better known as Curzor, residing in Querétaro, Mx. and internet site curzor.co, is responsible for the use and protection of your personal data, and in this regard we inform you of the following:\n\nFor what purposes will we use your personal data?\n\nThe personal data that we collect from you, will be used for the following purposes that are necessary for the requested service:\n\nResponse to messages from the contact form, Provision of any requested service, Shipment of products purchased from this online site Where can I consult the comprehensive privacy notice?\n\n To learn more about the terms and conditions under which your personal data will be processed, such as the third parties with whom we share your personal information and how you can exercise your ARCO rights, you can consult the comprehensive privacy notice with a request via email:\n\ncurzor.co@gmail.com\n\nLast update of this privacy notice: 01/2023"
+    }
+  }
+}

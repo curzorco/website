@@ -1,0 +1,135 @@
+:host {
+  
+  .container-fluid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    height: inherit;
+  }
+
+  #img-container {
+    position: relative;
+    top: 40px;
+
+    img {
+      width: 280px;
+      height: 280px;
+      filter: saturate(20%);
+    }
+  }
+
+  hr {
+    width: 70%;
+    margin: 16px auto;
+    color: var(--bs-color-1st);
+  }
+
+  #text-box {
+    padding: 18px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid var(--bs-color-1st);
+    border-radius: 2px;
+    text-align: center;
+    z-index: 100;
+    box-shadow: rgba(0, 0, 0, 0.25) 1.95px 1.95px 2.6px;
+
+    p {
+      
+      margin: 0;
+    }
+  }
+
+  //** Medium Screens
+
+  @media (min-width: 768px) {
+
+    .container-fluid {
+      position: relative;
+    }
+
+    #img-container {
+      position: absolute;
+      top: 40px;
+  
+      img {
+        width: 400px;
+        height: 400px;
+      }
+    }
+
+    hr {
+      width: 70%;
+      margin: 0;
+      color: transparent;
+    }
+
+    #text-box {
+      width: 100%;
+      padding: 0px;
+      position: relative;
+      top: 80px;
+      background-color: transparent;
+      border: none;
+      border-radius: unset;
+      text-align: start;
+      z-index: 0;
+      box-shadow: none;
+      
+      display: grid;
+
+      grid-template-columns: 25% 50% 25%;
+      grid-template-rows: repeat(3, 140px);
+
+      grid-template-areas: 
+                          "left-text . ."
+                          ". . ."
+                          ". . rigth-text";
+
+      p {
+        white-space: pre-wrap;
+        
+        .bottom-line {
+          display: block;
+          width: 60%;
+          margin-top: 8px;
+          border-bottom: 2px solid var(--bs-color-1st);
+        }
+      }
+
+      .left-text {
+        grid-area: left-text;
+      }
+
+      .rigth-text {
+        grid-area: rigth-text;
+      }
+    }
+  }
+
+  //** Large Screens
+
+  @media (min-width: 992px) {
+
+    #img-container {
+      top: 0px;
+  
+      img {
+        width: 560px;
+        height: 560px;
+      }
+    }
+
+    #text-box {
+      top: 150px;
+
+      p {
+       
+        .bottom-line {
+          width: 40%;
+        }
+      }
+    }
+  }
+}

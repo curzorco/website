@@ -1,0 +1,44 @@
+<!-- Home -->
+<section id="home">
+  <app-home-card></app-home-card>
+</section>
+
+<!-- Nosotros -->
+<section id="about">
+  <div class="section-header">
+    <h2>{{ 'about.title' | transloco }}</h2>
+    <h4>{{ 'about.subtitle' | transloco }}</h4>
+  </div>
+  <div class="section-content">
+    <app-about-card></app-about-card>
+  </div>
+</section>
+
+<!-- Servicios -->
+<section id="services">
+  <div class="section-header">
+    <h2>{{ 'services.title' | transloco }}</h2>
+    <h4>{{ 'services.subtitle' | transloco }}</h4>
+  </div>
+  <div class="section-content">
+    <app-services-swiper></app-services-swiper>
+  </div>
+</section>
+
+<!-- Proyectos -->
+<section id="projects">
+  <div class="section-header">
+    <h2>{{ 'projects.title' | transloco }}</h2>
+    <h4>{{ 'projects.subtitle' | transloco }}</h4>
+  </div>
+  <div class="section-content">
+    <app-project-card></app-project-card>
+  </div>
+</section>
+
+<!-- Contacto -->
+<section id="contact">
+  <h2>{{ 'contact.title' | transloco }}</h2>
+  <h4>{{ 'contact.subtitle' | transloco }}</h4>
+  <app-contact-form></app-contact-form>
+</section>

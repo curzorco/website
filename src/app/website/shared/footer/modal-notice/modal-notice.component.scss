@@ -1,0 +1,51 @@
+:host {
+
+  .modal-dialog{
+
+    .modal-content{
+      color: var(--bs-color-white);
+      background-color: var(--bs-color-dgray);
+    
+      .modal-header{
+        border-bottom: none;
+      }
+  
+      .modal-body{
+    
+        div {
+          margin-bottom: 24px;
+          overflow-y: scroll;
+
+          span {
+            display: block;
+            font-size: 24px;
+            color: var(--bs-color-1st);
+          }
+      
+          p {
+            white-space: pre-wrap;
+            display: block;
+            text-align: justify;
+            color: var(--bs-color-white);
+          }
+        }
+      }
+    }
+  
+  }
+
+  @media (min-width: 768px) {
+
+    .modal-header {
+      padding: 32px 32px;
+    }
+
+    .modal-body{
+      padding: 54px 80px;
+    
+      div {
+        overflow-y: hidden !important;
+      }
+    }
+  }
+}
