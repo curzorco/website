@@ -1,0 +1,159 @@
+{
+  "navbar": {
+    "about": "Nosotros",
+    "services": "Servicios",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  
+  "home": {
+    "title": "Transformamos negocios\n con digitalización",
+    "subtitle": "Desarrollo digital\n para impulsar tu negocio",
+    "btn": "Contáctanos"
+  },
+  
+  "about": {
+    "title": "Nostros",
+    "subtitle": "Tecnología para negocios",
+    "p_1": "Somos una agencia de tecnología que desarrolla software.\nNos localizamos en Querétaro, Mx.",
+    "p_2": "Impulsamos el éxito de nuestros clientes a través de innovación y tecnología.\nEstamos aquí para ayudarte."
+  },
+  
+  "services": {
+    "title": "Servicios",
+    "subtitle": "Productos digitales innovadores",
+    "cardData": [
+      {
+        "title": "Web",
+        "subtitle": "Desarrollo Web",
+        "icon": "fa-solid fa-earth-americas fa-lg",
+        "description": "Productos con experiencias digitales intuitivas y funcionales para tus usuarios.",
+        "services": [
+          {
+            "name": "Websites\nLanding Pages", 
+            "icon": "fa-solid fa-computer fa-lg"
+          },
+          {
+            "name": "Apps", 
+            "icon": "fa-solid fa-mobile-screen-button fa-lg"
+          },
+          {
+            "name": "Ecommerce", 
+            "icon": "fa-solid fa-desktop fa-lg"
+          }
+        ]
+      },
+      {
+        "title": "Apps",
+        "subtitle": "Desarrollo Móvil",
+        "icon": "fa-solid fa-mobile-screen-button fa-lg",
+        "description": "Aplicaciones multiplataforma capaces de adaptarse a diferentes dispositivos.",
+        "services": [
+          {
+            "name": "Crossplatform", 
+            "icon": "fa-solid fa-tablet-screen-button fa-lg"
+          }
+        ]
+      },
+      {
+        "title": "Automatización",
+        "subtitle": "Industrialización de procesos",
+        "icon": "fa-solid fa-robot fa-lg",
+        "description": "Automatización de procesos y tareas computacionales para diferentes sectores.",
+        "services": [
+          {
+            "name": "Unigraphics NX", 
+            "icon": "fa-solid fa-cube fa-lg"
+          },
+          {
+            "name": "Solidworks", 
+            "icon": "fa-solid fa-cubes fa-lg"
+          },
+          {
+            "name": "Windows", 
+            "icon": "fa-brands fa-windows fa-lg"
+          }
+        ]
+      },
+      {
+        "title": "Consultoría",
+        "subtitle": "Asesoria para empresas",
+        "icon": "fa-solid fa-chalkboard-user fa-lg",
+        "description": "Asesoría para empresas y negocios que buscan mejorar sus indicadores mediante soluciones digitales.",
+        "services": [
+          {
+            "name": "Consultoría", 
+            "icon": "fa-solid fa-person-chalkboard fa-lg",
+            "only": true
+          }
+        ]
+      }
+    ]
+  },
+  
+  "projects": {
+    "title": "Proyectos",
+    "subtitle": "Soluciones a tu alcance",
+    "projectData": [
+      {
+        "name": "Gizmatic",
+        "description": "Centro de diseño y\n frabricación.",
+        "icon": "fa-solid fa-gears fa-lg",
+        "img": ", url(/assets/images/sections/projects/gizmaticCover.svg)",
+        "url": "https://gizmatic.com/"
+      },
+      {
+        "name": "Lalenteria",
+        "description": "Comercio electrónico\n de lentes.",
+        "icon": "fa-solid fa-glasses fa-lg",
+        "img": ", url(/assets/images/sections/projects/lalenteriaCover.svg)",
+        "url": "https://lalenteria.mx/"
+      },
+      {
+        "name": "Food and Pleasure",
+        "description": "Blog de comida y\n sitios turísticos.",
+        "icon": "fa-solid fa-burger fa-lg",
+        "img": ", url(/assets/images/sections/projects/foodandpleasureCover.svg)",
+        "url": "https://foodandpleasure.com/"
+      }
+    ]
+  },
+  
+  "contact": {
+    "title": "Contáctanos",
+    "subtitle": "Construyamos tu idea",
+    "form": {
+      "name": {
+        "placeholder": "Nombre / Empresa",
+        "errorMsg": "Introducir 3 letras como mínimo."
+      },
+      "email": {
+        "placeholder": "Email",
+        "errorMsg": "Introducir un email válido."
+      },
+      "phone": {
+        "placeholder": "Teléfono",
+        "errorMsg": "Introducir un teléfono válido."
+      },
+      "message": {
+        "placeholder": "¿Cómo te podemos ayudar?"
+      },
+      "btnSubmit": {
+        "msg": "Enviar"
+      }
+    },
+    "modal": {
+      "p_1": "¡Gracias por tu tiempo!",
+      "p_2": "En breve nos pondremos en\n contacto contigo..."
+    }
+  },
+
+  "footer": {
+    "rights": "Todos los derechos reservados",
+    "notice": "Aviso de privacidad",
+    "modal": {
+      "p_1": "Aviso de Privacidad",
+      "p_2": "Curzor mejor conocido como Curzor, con domicilio en Querétaro, Mx. y portal de internet curzor.co, es el responsable del uso y protección de sus datos personales, y al respecto le informamos lo siguiente:\n\n¿Para qué fines utilizaremos sus datos personales?\n\nLos datos personales que recabamos de usted, los utilizaremos para las siguientes finalidades que son necesarias para el servicio que solicita:\n\nRespuesta a mensajes del formulario de contacto, Prestación de cualquier servicio solicitado, Envío de productos adquiridos en esta tienda en línea ¿Dónde puedo consultar el aviso de privacidad integral?\n\nPara conocer mayor información sobre los términos y condiciones en que serán tratados sus datos personales, como los terceros con quienes compartimos su información personal y la forma en que podrá ejercer sus derechos ARCO, puede consultar el aviso de privacidad integral con una petición vía correo electrónico:\n\ncurzor.co@gmail.com\n\nÚltima actualización de este aviso de privacidad: 01/2023"
+    }
+  }
+}
