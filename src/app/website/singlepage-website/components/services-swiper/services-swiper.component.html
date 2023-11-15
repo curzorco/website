@@ -2,12 +2,46 @@
   <img src="assets/images/sections/services/desarrolloWeb.webp" [alt]=" 'services.title' | transloco ">
 </div>
 
-<div class="swiper" style="cursor: grab;">
-  <swiper-container init="false" 
-                    grab-cursor="true"
-                    pagination="true">
-  
-  <swiper-slide *ngFor="let item of cardData">
+<div id="carousel" class="carousel slide">
+  <!-- Indicadores -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
+  <!-- Contenido -->
+  <div class="carousel-inner">
+    <!-- 1re Servicio -->
+    <div class="carousel-item active">
+      <div class="card-header">
+        <span>
+          <h3>{{ cardData[0].title }}</h3>
+          <p>{{ cardData[0].subtitle }}</p>
+        </span>
+        <span>
+          <i [class]="cardData[0].icon"></i>
+        </span>        
+      </div>
+      <div class="card-content">
+        
+        <p>{{ cardData[0].description }}</p>
+
+        <div class="card-services">
+          <div class="service" *ngFor="let service of cardData[0].services">
+            <span>
+              <i [class]="service.icon"></i>
+            </span>
+            <small>
+              {{ service.name }}
+            </small>
+          </div>
+        </div>
+      
+      </div>
+    </div>
+    <!-- Servicios siguientes -->
+    <div class="carousel-item" *ngFor="let item of cardData | slice:1">
       <div class="card-header">
         <span>
           <h3>{{ item.title }}</h3>
@@ -33,7 +67,6 @@
         </div>
       
       </div>
-  </swiper-slide>
-
-  </swiper-container>
+    </div>
+  </div>
 </div>

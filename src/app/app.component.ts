@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-// Swiper
-// import { register } from 'swiper/element/bundle';
 
 
 
@@ -11,8 +9,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Curzor';
-
-  constructor() {
-    // register();
-  }
 }

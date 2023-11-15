@@ -1,7 +1,8 @@
-import { Component, Inject, Input, SimpleChanges, OnChanges, OnInit, ChangeDetectorRef } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { TranslocoService } from '@ngneat/transloco';
-import { Observer } from 'rxjs';
-import { delay, filter, tap } from 'rxjs/operators';
+declare var bootstrap: any;
+
+
 
 interface CardData {
   title: string;
@@ -35,8 +36,7 @@ export class ServicesSwiperComponent implements OnInit {
   ngOnInit(): void {
 
     this.translate();
-
-    
+    this.initializeCarousel();
   }
 
   translate() {
@@ -45,31 +45,16 @@ export class ServicesSwiperComponent implements OnInit {
                          .subscribe(value => {
 
                           this.cardData = value['services.cardData'];
-
-                          this.updateSwiper();
                          });
   }
 
-  updateSwiper() {
+  initializeCarousel() {
 
-    const swiperEl: any = document.querySelector('swiper-container');
+    const carouselElement = document.querySelector('#carousel');
 
-    const swiperParams = {
-      effect: 'cube',
-      cubeEffect: {
-        slideShadows: false,
-      },
-      on: {
-        init() {
-          // ...
-        },
-      },
-    };
-
-    setTimeout(() => {
-      
-      Object.assign(swiperEl, swiperParams);
-      swiperEl!.initialize();
-    }, 10);
+    const carousel = new bootstrap.Carousel(carouselElement, {
+      interval: 2000,
+      touch: true
+    })
   }
 }
