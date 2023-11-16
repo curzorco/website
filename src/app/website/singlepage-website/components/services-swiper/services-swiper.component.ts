@@ -25,6 +25,28 @@ interface Services {
 })
 export class ServicesSwiperComponent implements OnInit {
 
+  cardDataSlide_1: CardData[] = [
+    {
+      "title": "Web",
+      "subtitle": "Desarrollo Web",
+      "icon": "fa-solid fa-earth-americas fa-lg",
+      "description": "Productos con experiencias digitales intuitivas y funcionales para tus usuarios.",
+      "services": [
+        {
+          "name": "Websites\nLanding Pages", 
+          "icon": "fa-solid fa-computer fa-lg"
+        },
+        {
+          "name": "Apps", 
+          "icon": "fa-solid fa-mobile-screen-button fa-lg"
+        },
+        {
+          "name": "Ecommerce", 
+          "icon": "fa-solid fa-desktop fa-lg"
+        }
+      ]
+    }
+  ];
   cardData: CardData[] = [];
 
   set setCardData(value: any) {

@@ -16,19 +16,19 @@
     <div class="carousel-item active">
       <div class="card-header">
         <span>
-          <h3>{{ cardData[0].title }}</h3>
-          <p>{{ cardData[0].subtitle }}</p>
+          <h3>{{ cardDataSlide_1[0].title }}</h3>
+          <p>{{ cardDataSlide_1[0].subtitle }}</p>
         </span>
         <span>
-          <i [class]="cardData[0].icon"></i>
+          <i [class]="cardDataSlide_1[0].icon"></i>
         </span>        
       </div>
       <div class="card-content">
         
-        <p>{{ cardData[0].description }}</p>
+        <p>{{ cardDataSlide_1[0].description }}</p>
 
         <div class="card-services">
-          <div class="service" *ngFor="let service of cardData[0].services">
+          <div class="service" *ngFor="let service of cardDataSlide_1[0].services">
             <span>
               <i [class]="service.icon"></i>
             </span>
