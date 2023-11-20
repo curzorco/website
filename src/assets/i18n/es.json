@@ -99,21 +99,21 @@
         "name": "Gizmatic",
         "description": "Centro de diseño y\n frabricación.",
         "icon": "fa-solid fa-gears fa-lg",
-        "img": ", url(/assets/images/sections/projects/gizmaticCover.svg)",
+        "img": ", url(/assets/images/sections/projects/gizmaticCover.webp)",
         "url": "https://gizmatic.com/"
       },
       {
         "name": "Lalenteria",
         "description": "Comercio electrónico\n de lentes.",
         "icon": "fa-solid fa-glasses fa-lg",
-        "img": ", url(/assets/images/sections/projects/lalenteriaCover.svg)",
+        "img": ", url(/assets/images/sections/projects/lalenteriaCover.webp)",
         "url": "https://lalenteria.mx/"
       },
       {
         "name": "Food and Pleasure",
         "description": "Blog de comida y\n sitios turísticos.",
         "icon": "fa-solid fa-burger fa-lg",
-        "img": ", url(/assets/images/sections/projects/foodandpleasureCover.svg)",
+        "img": ", url(/assets/images/sections/projects/foodandpleasureCover.webp)",
         "url": "https://foodandpleasure.com/"
       }
     ]
