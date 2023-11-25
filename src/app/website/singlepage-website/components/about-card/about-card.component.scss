@@ -51,7 +51,7 @@
 
     #img-container {
       position: absolute;
-      top: 40px;
+      top: 0px;
   
       img {
         width: 400px;
@@ -80,7 +80,7 @@
       display: grid;
 
       grid-template-columns: 25% 50% 25%;
-      grid-template-rows: repeat(3, 140px);
+      grid-template-rows: repeat(3, 30%);
 
       grid-template-areas: 
                           "left-text . ."
@@ -113,16 +113,18 @@
   @media (min-width: 992px) {
 
     #img-container {
-      top: 0px;
+      top: -70px;
   
       img {
-        width: 560px;
-        height: 560px;
+        width: 510px;
+        height: 510px;
       }
     }
 
     #text-box {
-      top: 150px;
+      top: 50px;
+
+      grid-template-rows: repeat(3, 50%);
 
       p {
        
