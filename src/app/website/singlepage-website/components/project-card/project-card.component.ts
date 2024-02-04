@@ -2,7 +2,6 @@ import { Component } from '@angular/core';
 import { TranslocoService } from '@ngneat/transloco';
 
 
-
 @Component({
   selector: 'app-project-card',
   templateUrl: './project-card.component.html',

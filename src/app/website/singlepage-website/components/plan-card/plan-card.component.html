@@ -1,0 +1,22 @@
+<div class="card" *ngFor="let plan of plansData" [ngClass]="{'card-focus': plan.focus}">
+  <div class="card-custom-header">
+    <p class="card-title">Plan</p>
+    <h3 class="card-subtitle">{{ plan.subtitle }}</h3>
+    <h3 class="card-price" [ngClass]="{'price-focus': plan.focus}">$ {{ plan.price }} <small class="currency">{{ plan.currency }}</small></h3>
+  </div>
+  <div class="card-body">
+    <ul>
+      <li *ngFor="let c of plan.content">{{ c }}</li>
+    </ul>
+  </div>
+  <div class="card-custom-footer">
+    <ul>
+      <li *ngFor="let sp of plan.smallPrint">
+        {{ sp.slice(-3) === 'MXN' || sp.slice(-3) === 'USD' ? sp.substring(0, sp.length-3) : sp }} 
+        <small class="currency" *ngIf="sp.slice(-3) === 'MXN' || sp.slice(-3) === 'USD'">
+          {{ plan.currency }}
+        </small>
+      </li>
+    </ul>
+  </div>
+</div>

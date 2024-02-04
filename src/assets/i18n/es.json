@@ -3,6 +3,7 @@
     "about": "Nosotros",
     "services": "Servicios",
     "projects": "Proyectos",
+    "plans": "Planes",
     "contact": "Contacto"
   },
   
@@ -86,6 +87,100 @@
             "icon": "fa-solid fa-person-chalkboard fa-lg",
             "only": true
           }
+        ]
+      }
+    ]
+  },
+
+  "plans": {
+    "title": "Planes",
+    "subtitle": "Hechos a tu medida",
+    "plansData": [
+      {
+        "subtitle": "Landing",
+        "price": "2,199",
+        "currency": "MXN",
+        "content": [
+          "- Hosting, Dominio y SSL por 1 año",
+          "- Página web principal (One single page)",
+          "- Sitio Reactivo",
+          "- Formulario de contacto",
+          "- Redes sociales y botón de Whatsapp",
+          "- Compatible para dispositivos móviles"
+        ],
+        "smallPrint": [
+          "* Renovación anual de hosting: $ 999 MXN",
+          "* Renovación anual de dominio por separado"
+        ]
+      },
+      {
+        "subtitle": "Emprendedor",
+        "focus": true,
+        "price": "4,699",
+        "currency": "MXN",
+        "content": [
+          "- Hosting, Dominio y SSL por 1 año",
+          "- Página web principal (One single page)",
+          "- Sitio Reactivo",
+          "- Diseño personalizado",
+          "- Correo electrónico",
+          "- Formulario de contacto",
+          "- Redes sociales y botón de Whatsapp",
+          "- Compatible para dispositivos móviles",
+          "- Optimización de posicionamiento SEO",
+          "- 5 imágenes de paga"
+        ],
+        "smallPrint": [
+          "* Renovación anual de hosting: $ 1,299 MXN",
+          "* Renovación anual de dominio y correo por separado"
+        ]
+      },
+      {
+        "subtitle": "Empresa",
+        "focus": true,
+        "price": "8,697",
+        "currency": "MXN",
+        "content": [
+          "- Hosting, Dominio y SSL por 1 año",
+          "- Página web con hasta 6 urls",
+          "- Sitio Reactivo",
+          "- Diseño personalizado",
+          "- 5 correos electrónicos",
+          "- Formulario de contacto",
+          "- Redes sociales y botón de Whatsapp",
+          "- Compatible para dispositivos móviles",
+          "- Optimización de posicionamiento SEO",
+          "- 10 imágenes de paga",
+          "- Mapa de ubicación",
+          "- Aviso de privacidad"
+        ],
+        "smallPrint": [
+          "* Renovación anual de hosting: $ 1,467 MXN",
+          "* Renovación anual de dominio y correo por separado"
+        ]
+      },
+      {
+        "subtitle": "E-Commerce",
+        "price": "15,697",
+        "currency": "MXN",
+        "content": [
+          "- Hosting, Dominio y SSL por 1 año",
+          "- Página web con hasta 12 urls",
+          "- Pagos via PayPal y Tarjetas Bancarías",
+          "- Sitio Reactivo",
+          "- Diseño personalizado",
+          "- 5 correos electrónicos",
+          "- Formulario de contacto",
+          "- Redes sociales y botón de Whatsapp",
+          "- Compatible para dispositivos móviles",
+          "- Optimización de posicionamiento SEO",
+          "- 15 imágenes de paga",
+          "- Mapa de ubicación",
+          "- Aviso de privacidad"
+        ],
+        "smallPrint": [
+          "* Renovación anual de hosting: $ 6,299 MXN",
+          "* Renovación anual de dominio y correo por separado"
         ]
       }
     ]

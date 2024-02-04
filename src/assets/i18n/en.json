@@ -3,6 +3,7 @@
     "about": "About",
     "services": "Services",
     "projects": "Projects",
+    "plans": "Plans",
     "contact": "Contact"
   },
   
@@ -115,6 +116,100 @@
         "icon": "fa-solid fa-burger fa-lg",
         "img": ", url(/assets/images/sections/projects/foodandpleasureCover.webp)",
         "url": "https://foodandpleasure.com/"
+      }
+    ]
+  },
+
+  "plans": {
+    "title": "Plans",
+    "subtitle": "Custom made",
+    "plansData": [
+      {
+        "subtitle": "Landing",
+        "price": "110",
+        "currency": "USD",
+        "content": [
+          "- Hosting, Domain & SSL for 1 year",
+          "- Home website (One single page)",
+          "- Reactive site",
+          "- Contact form",
+          "- Social media & WhatsApp button",
+          "- Responsive design"
+        ],
+        "smallPrint": [
+          "* Annual hosting renewal: $ 50 USD",
+          "* Annual domain renewal, individually"
+        ]
+      },
+      {
+        "subtitle": "Entrepreneur",
+        "focus": true,
+        "price": "235",
+        "currency": "USD",
+        "content": [
+          "- Hosting, Domain & SSL for 1 year",
+          "- Home website (One single page)",
+          "- Reactive site",
+          "- Custom design",
+          "- Email",
+          "- Contact form",
+          "- Social media & WhatsApp button",
+          "- Responsive design",
+          "- Online Search Engine Optimization",
+          "- 5 paid pictures"
+        ],
+        "smallPrint": [
+          "* Annual hosting renewal: $ 65 USD",
+          "* Annual domain renewal and email, individually"
+        ]
+      },
+      {
+        "subtitle": "Bussines",
+        "focus": true,
+        "price": "435",
+        "currency": "USD",
+        "content": [
+          "- Hosting, Domain & SSL for 1 year",
+          "- Website with up to 6 urls",
+          "- Reactive site",
+          "- Custom design",
+          "- 5 emails",
+          "- Contact form",
+          "- Social media & WhatsApp button",
+          "- Responsive design",
+          "- Online Search Engine Optimization",
+          "- 10 paid pictures",
+          "- Sitemap",
+          "- Privacy notice"
+        ],
+        "smallPrint": [
+          "* Annual hosting renewal: $ 75 USD",
+          "* Annual domain renewal and email, individually"
+        ]
+      },
+      {
+        "subtitle": "E-Commerce",
+        "price": "785",
+        "currency": "USD",
+        "content": [
+          "- Hosting, Domain & SSL for 1 year",
+          "- Website with up to 12 urls",
+          "- PayPal & Bank Card payments",
+          "- Reactive site",
+          "- Custom design",
+          "- 5 emails",
+          "- Contact form",
+          "- Social media & WhatsApp button",
+          "- Responsive design",
+          "- Online Search Engine Optimization",
+          "- 15 paid pictures",
+          "- Sitemap",
+          "- Privacy notice"
+        ],
+        "smallPrint": [
+          "* Annual hosting renewal: $ 315 USD",
+          "* Annual domain renewal and email, individually"
+        ]
       }
     ]
   },

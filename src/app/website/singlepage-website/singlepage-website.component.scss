@@ -66,6 +66,24 @@
     }
   }
 
+  #plans {
+    background-color: var(--bs-color-white);
+    background-image: url("/assets/images/sections/plans/vectorPlanesBkg.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    text-align: start;
+
+    h2 {
+      color: var(--bs-color-2nd);
+    }
+
+    h4 {
+      margin-bottom: 56px;
+    }
+  }
+
   #contact {
     background-color: var(--bs-color-dgray);
     background-image: url("/assets/images/sections/contact/contactoBkg.svg");
@@ -149,6 +167,36 @@
 
       h4 {
         margin-bottom: 24px;
+      }
+    }
+
+    #plans {
+      background-image: url("/assets/images/sections/plans/vectorPlanesBkg_med.svg");
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+  
+      .section-header {
+        justify-content: start;
+      }
+
+      .section-content {
+        width: 100%;
+        flex-grow: 1;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+  
+      h2 {
+        color: var(--bs-color-2nd);
+      }
+  
+      h4 {
+        margin-bottom: 56px;
       }
     }
 

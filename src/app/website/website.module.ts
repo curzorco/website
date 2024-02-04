@@ -12,6 +12,7 @@ import { HomeCardComponent } from './singlepage-website/components/home-card/hom
 import { ModalContactComponent } from './singlepage-website/components/contact-form/modal-contact/modal-contact.component';
 import { AboutCardComponent } from './singlepage-website/components/about-card/about-card.component';
 import { ProjectCardComponent } from './singlepage-website/components/project-card/project-card.component';
+import { PlanCardComponent } from './singlepage-website/components/plan-card/plan-card.component';
 import { ServicesSwiperComponent } from './singlepage-website/components/services-swiper/services-swiper.component';
 import { SinglepageWebsiteComponent } from './singlepage-website/singlepage-website.component';
 import { WebsiteComponent } from './website.component';
@@ -26,6 +27,7 @@ import { WebsiteComponent } from './website.component';
     ModalContactComponent,
     AboutCardComponent,
     ProjectCardComponent,
+    PlanCardComponent,
     ServicesSwiperComponent,
     SinglepageWebsiteComponent,
     WebsiteComponent,
